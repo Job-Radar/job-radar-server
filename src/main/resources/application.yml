@@ -2,11 +2,8 @@ spring:
   application:
     name:
       job-radar
-  datasource:
-    url: jdbc:mysql://${RDS_ENDPOINT:localhost}:3306/job
-    username: user
-    password: ${DB_PASSWORD}
-    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    default: local
   jpa:
     defer-datasource-initialization: true
     hibernate:

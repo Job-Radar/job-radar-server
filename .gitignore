@@ -38,3 +38,9 @@ out/
 
 ### custom
 /.env
+
+### terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+infra/terraform.tfvars

@@ -10,5 +10,6 @@ docker-compose run -d // .env는 개발자에게 별도 문의 필요
 ```
 2. **IntelliJ**
 ```text
+DB_USERNAME=username // 실제 db user명 별도 문의
 DB_PASSWORD=password // 실제 패스워드는 개발자에게 별도 문의 필요
 ```
